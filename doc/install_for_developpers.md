@@ -115,6 +115,15 @@ pyenv virtualenv sakia-env
 ##### Go to dev branch
 ```bash
 cd sakia && git checkout dev
+
+eliadem : (
+git checkout dev
+La branche dev est paramétrée pour suivre la branche distante dev depuis origin.
+Basculement sur la nouvelle branche 'dev'
+guy@surcouf:~/sakia$ git remote -v
+origin	https://github.com/duniter/sakia (fetch)
+origin	https://github.com/duniter/sakia (push)
+)
 ```
 
 ##### Configure your PYTHONPATH environment variable
